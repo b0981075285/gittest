@@ -1,7 +1,7 @@
 import random
 
 
-WELCOME_MESSAGE = "猜數字"
+WELCOME_MESSAGE = "我不喜歡猜數字"
 
 MAX_ATTEMPTS = 9
 
