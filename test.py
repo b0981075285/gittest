@@ -8,10 +8,10 @@ MAX_ATTEMPTS = 3
 
 
 def play_game():
-    answer = random.randint(1, 20)
+    answer = random.randint(1, 999)
 
     print(WELCOME_MESSAGE)
-    print(" 1 到 20 。")
+    print(" 1 到 999 。")
 
     for attempt in range(1, MAX_ATTEMPTS + 1):
         guess = int(input(f"第 {attempt} 次猜測："))
