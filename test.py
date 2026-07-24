@@ -26,6 +26,8 @@ def play_game():
             print("答案再小一點。")
 
     print(f"挑戰失敗，正確答案是 {answer}。")
+    
+print(11)
 
 
 if __name__ == "__main__":
